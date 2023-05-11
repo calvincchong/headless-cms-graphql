@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "calvinportfolios",
+  "info": {
+    "singularName": "calvinportfolio",
+    "pluralName": "calvinportfolios",
+    "displayName": "calvinportfolio"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "about": {
+      "type": "string"
+    },
+    "profile_picture": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
